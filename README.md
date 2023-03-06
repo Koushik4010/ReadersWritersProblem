@@ -5,7 +5,7 @@ Write starvation free pseudo code for the classical readers-writers problem.
 ## Starvation free solution
 The simple solution for starvation free readers writers problem is using the priority queue. By using the FIFO(First In First Out) priority queue we can ensure that all the requests are made available to resources in the order of arrival which in turn removes starvation of a particular process.  
  
-**Pseudocode:**
+## **Pseudocode:**
 ```
 semaphore orderQueue;   //requests are preserved in order of arrival uses FIFO priority
 semaphore accessResource;   //Mutual exclusion of reading and writing processes
