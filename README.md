@@ -1,8 +1,8 @@
 # ReadersWritersProblem
-##Problem Statement
+## Problem Statement
 Write starvation free pseudo code for the classical readers-writers problem.
 
-##Starvation free solution
+## Starvation free solution
 **Pseudocode:**
 ```
 semaphore orderQueue;   //requests are preserved in order of arrival uses FIFO priority
